@@ -1,0 +1,11 @@
+.img-init{
+    margin:auto;
+    display:block;
+    width: 400px;
+    height: 600px;
+}
+.img-init-proof{
+    margin:auto;
+    display:block;
+    width: 100%;
+}

@@ -1,0 +1,18 @@
+.footer{
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    line-height: 60px;
+    background-color: #212529;
+    color: #ced4da;
+    text-align: center;
+}
+
+.name{
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+.information{
+    height: 30px;
+}

@@ -1,0 +1,26 @@
+.img-profile{
+    width: 200px;
+    height: 200px;
+}
+
+.dimension-card{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.buttons-footer{
+    display: flex;
+}
+
+.dimensions-button{
+    margin: 5px
+}
+
+.dimensions-foms{
+    margin-top: 20px
+}
+
+.dimensions{
+    height: 70vh
+}
