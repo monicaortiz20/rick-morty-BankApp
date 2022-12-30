@@ -24,12 +24,12 @@ Register of any money movement
     quantity: number
 }
 ```
-from: User who send money<br/>
-to: User who recieve money<br/>
+from: User who sends money<br/>
+to: User who recieves money<br/>
 quantity: Amount of money<br/>
 <br/></br>
 ### Notification
-Notification object created when an user send a transaction to another user
+Notification object created when an user sends a transaction to another user
 ```
 {
     notified: boolean,
@@ -38,11 +38,11 @@ Notification object created when an user send a transaction to another user
 }
 ```
 notified: Variable to know if the user has seen the notification object<br/>
-to: User who recieve the notification<br/>
+to: User who recieves the notification<br/>
 trasanction: Reference to transaction that trigger the notification object<br/>
 <br/></br>
 ### Bank Account
-describe
+Created to save total money of a user. 
 ```
 {
     amount: number,
@@ -52,6 +52,20 @@ describe
 amount: Total of money available by user<br/>
 userApp_id: User who owns the bank account<br/>
 
+<br/></br>
+## About the App
+This app is developed using specific knowledge, tools and technologies from the front-end development.
 
+As a package manager for the code, Yarn has been used. The React library  has been used, with its  Functional Components.
 
+Firebase services have been implemented to store information and manage registrations and logins
+
+For the visual and design part, I have used Bootstrap 5. This SPA has a responsive design.
+<br/></br>
+### Objective
+Develop an application using the Rick & Morty public API from where users have been reached. 
+
+This SPA has different spaces: main page, Home: to view all registered users, and accessing each of them, we can view their profile. At this point user have 2 options: 
+ * send money to another user 
+* deposit money in his own bank account.
 
